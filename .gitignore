@@ -2,5 +2,8 @@
 # python generated
 **/__pycache__
 
+# databases
+**/*.db
+
 # private
 API_KEY.*
