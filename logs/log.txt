@@ -1,0 +1,9 @@
+[19:29:17][ERROR] select() missing 1 required positional argument: 'ticker'
+[19:30:25][ERROR] select() missing 1 required positional argument: 'ticker'
+[19:36:49][ERROR] (sqlite3.OperationalError) no such column: AAPL
+[SQL: 
+    select *
+    from tb_ohlc
+    where 1 = 1
+     and ticker = AAPL]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
